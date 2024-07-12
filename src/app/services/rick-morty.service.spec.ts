@@ -6,7 +6,7 @@ import { RickMortyService } from './rick-morty.service';
 describe('Service: RickMorty', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [RickMortyService]
+      providers: [RickMortyService],
     });
   });
 
