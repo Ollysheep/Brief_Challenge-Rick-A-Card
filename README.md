@@ -1,27 +1,15 @@
-# RickMortyApp
+#Brief_Challenge-Rick-A-Card
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+## Resource
 
-## Development server
+[Rick & Morty - API](https://rickandmortyapi.com/documentation/#character)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Context of the project
 
-## Code scaffolding
+As an application dev designer, you will have to set up interfaces, test these interfaces using an end-to-end testing framework (Cypress) and deploy your application on a Github Page, all automatically in a Devops approach.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The objective is to produce a POC of a small application using a public API to retrieve data from the Rick & Morty universe.
 
-## Build
+**Expression of need:** A countdown allows you to activate a button to randomly draw a character card (you can only draw a card every 2 hours), once the card is drawn it is displayed and allows you to visualize character information (image, name, status, species, character number) in a clear and stylized manner.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+_Bonus: Once a card is drawn it must be stored in a virtual wallet (localstorage for example) to keep track of the different cards already drawn._
