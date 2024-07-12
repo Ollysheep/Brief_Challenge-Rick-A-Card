@@ -12,7 +12,7 @@ export class RickMortyService {
   constructor(private http: HttpClient) {}
 
   getRandomCharacter(): Observable<Character> {
-    const randomId = Math.floor(Math.random() * 671) + 1;
+    const randomId = Math.floor(Math.random() * 826) + 1;
     return this.http.get<Character>(`${this.apiUrl}/${randomId}`);
   }
 }
