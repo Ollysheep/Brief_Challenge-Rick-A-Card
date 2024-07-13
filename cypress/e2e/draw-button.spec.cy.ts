@@ -116,7 +116,7 @@ describe('Draw Button Component', () => {
     const currentTime = Date.now();
     const threeHoursLater = currentTime + 3 * 60 * 60 * 1000; // 3 hours later
 
-    // Case 1: Click on the button to draw the first character
+    // Case 1: Click on button
     cy.get('button')
       .contains('Draw a Character')
       .should('not.be.disabled')
