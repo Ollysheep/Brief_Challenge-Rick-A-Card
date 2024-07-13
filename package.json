@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build /Brief_Challenge-Rick-A-Card/",
+    "build": "ng build --base-href /Brief_Challenge-Rick-A-Card/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
